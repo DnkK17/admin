@@ -1,0 +1,160 @@
+body {
+    width: 100%;
+}
+.Login-section{
+    position: relative;
+   width: 100px;
+   height: 40px;
+   border: solid ;
+   border-color: black;
+   border-width: 1px;
+}
+
+#Login-section{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+.Login-section:hover{
+    background-color: rgba(229, 228, 228, 0.863);
+}
+
+#Login-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.topic{
+    font-size: 30px;
+}
+
+#dropmenu {
+    position: relative;
+    display: inline-block;
+  }
+
+#dropmenu:hover .dropcontent{
+    display: block;
+}
+.p-2{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.p-2 ul{
+    display: flex;
+    gap: 30px;
+}
+.drop-down-inf{
+    position: absolute;
+    top: 0;
+  
+  right:0; 
+  bottom: 0;
+}
+.p-2 li{
+    margin-top: 10px;
+}
+.container{
+  position: relative;
+}
+.user-info{
+  position: absolute;
+  right: 0;
+  margin-top:2;
+}
+.p-2 ul a {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.courses-list-top h1,
+p {
+  font-style: italic;
+  /* text-align: center; */
+}
+.courses-list-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* .navbar-collapse {
+  position: absolute;
+  bottom: 0px;
+
+  right: 0px;
+}
+.container {
+  position: relative;
+} */
+.search-bar{
+  border-style: solid;
+  border-width: 1px;
+}
+.search-button{
+  width: 50px;
+  height: 20px;
+  margin-left: 10px;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchLabel {
+  color: #999;
+  margin-right: 8px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputContainer input {
+  padding-left: 32px;
+}
+
+.inputContainer input::placeholder {
+  color: #999;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.inputContainer input:focus::placeholder {
+  opacity: 0;
+}
+
+.inputContainer button {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.inputContainer button svg {
+  color: #999;
+}
+.inputContainer{
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  border-color: #a5a5a5;
+  width: 100%;
+}
